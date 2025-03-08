@@ -2,6 +2,8 @@ import streamlit as st
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+st.set_page_config('Time Zone Converter - Uzair Bin Asif')
+
 TIME_ZONES = [
     'UTC',
     'Asia/Karachi',
